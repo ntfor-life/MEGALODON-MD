@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~tdB0SSxC#gAREr9jgFlOHqwYAZmaRedM0zvDXuPZDyEPcF9ZNzIY",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~5cwXnK5S#X7qgVGexHSGzc2H1ECwZ1yfFr6QZG9VKZtrvZXp6L3k",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -74,7 +74,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // false if want private mode
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // show typing status   
@@ -82,7 +82,7 @@ READ_CMD: process.env.READ_CMD || "false",
 // mark commands as read 
 DEV: process.env.DEV || "50934960331",
 // your whatsapp number        
-ANTI_VV: process.env.ANTI_VV || "true",
+ANTI_VV: process.env.ANTI_VV || "false",
 // anti view once 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // auto recording status 
